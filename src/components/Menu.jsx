@@ -8,7 +8,7 @@ function Menu() {
             {/* LOGO */}
             <div className="flex items-center justify-evenly h-20">
                 <img src="" alt="Logo" />
-                <h1 className="text-2xl font-semibold">JS HEAVEN</h1>
+                <h1 className="text-md font-semibold lg:text-2xl">JS HEAVEN</h1>
             </div>
             {/* MENU */}
             <div className="flex flex-col w-full text-center">

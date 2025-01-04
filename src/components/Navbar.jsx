@@ -1,6 +1,6 @@
 function Navbar() {
     return (
-        <div className="navbar bg-base-100 bg-transparent shadow-sm p-2 rounded-sm">
+        <div className="navbar bg-slate-200 bg-transparent shadow-md p-2 rounded-sm">
             <div className="flex-1">
                 <a className="btn btn-ghost text-xl">MY SCHOOL</a>
             </div>
