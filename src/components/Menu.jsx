@@ -2,9 +2,10 @@ import { CiHome } from "react-icons/ci";
 import { RiGraduationCapLine } from "react-icons/ri";
 import { IoPeopleOutline } from "react-icons/io5";
 import { LuNotebookPen } from "react-icons/lu";
+import { Link } from "react-router-dom"
 function Menu() {
     return (
-        <div className="min-h-screen">
+        <div className="min-h-screen sticky top-0 w-full">
             {/* LOGO */}
             <div className="flex items-center justify-evenly h-20">
                 <img src="" alt="Logo" />
@@ -19,10 +20,10 @@ function Menu() {
                     </a>
                 </div>
                 <div>
-                    <a href="#" className="btn btn-ghost w-4/5 flex justify-evenly">
+                    <Link to="/list/teachers" className="btn btn-ghost w-4/5 flex justify-evenly">
                         <RiGraduationCapLine className="inline-block text-xl" />
                         <span className="hidden lg:inline-block text-xl lg:text-sm font-thin">Teachers</span>
-                    </a>
+                    </Link>
                 </div>
                 <div>
                     <a href="#" className="btn btn-ghost w-4/5 flex justify-evenly">

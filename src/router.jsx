@@ -5,6 +5,7 @@ import App from "./App";
 import Admin from "./pages/Admin";
 import Student from "./pages/Student";
 import Teacher from "./pages/Teacher";
+import TeachersList from "./components/lists/TeachersList";
 
 const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
                 path: "teacher",
                 element: <Teacher />
             },
+            {
+                path: "/list/teachers",
+                element: <TeachersList />
+            }
         ]
     },
     {
@@ -33,7 +38,7 @@ const router = createBrowserRouter([
     {
         path: "/signup",
         element: <Signup />,
-    }
+    },
 ])
 
 export default router;
